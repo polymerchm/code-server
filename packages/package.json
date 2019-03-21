@@ -26,7 +26,8 @@
       "@coder/ide/src/fill/evaluation": "<rootDir>/ide/src/fill/evaluation",
       "@coder/ide/src/fill/client": "<rootDir>/ide/src/fill/client",
       "@coder/(.*)/test": "<rootDir>/$1/test",
-      "@coder/(.*)": "<rootDir>/$1/src"
+      "@coder/(.*)": "<rootDir>/$1/src",
+      "^node-pty": "node-pty-prebuilt"
     },
     "transform": {
       "^.+\\.tsx?$": "ts-jest"
